@@ -46,6 +46,7 @@ public class Demo1 {
 		dr.findElement(By.cssSelector("input[id*='chk_friendsandfamily']")).click();
 		
 		dr.findElement(By.xpath("//input[contains(@id,'btn_FindFlights')]")).click();
+		System.out.println("Hello");
 		
 		
 //		Thread.sleep(100);
