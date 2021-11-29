@@ -13,7 +13,8 @@ public class Assignment2 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
+		//
+		System.out.println("Hello");
 		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		WebDriver dr = new FirefoxDriver();
 		dr.get("https://www.cleartrip.com/");
