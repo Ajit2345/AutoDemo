@@ -10,6 +10,7 @@ import org.testng.Assert;
 public class Assignment3 {
 
 	public static void main(String[] args) {
+		System.out.println("Hello Demo2 in Assignment3");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		WebDriver dr=new ChromeDriver();
 		WebDriverWait w = new WebDriverWait(dr,10);
